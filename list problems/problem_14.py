@@ -1,6 +1,7 @@
 list = [1, 2, 3, 4, 5]
-print("Original list:", list)
-list.insert(2, 10)  # inserts 10 at index 2
-print("List after insertion:", list)
-list.remove(4)  # removes the element at index 3
-print("List after deletion:", list)
+print(list)
+list.insert(2, 10)  # inserts the value 10 at index 2
+print(list)  # prints the list after inserting the value 10 at index 2
+list.remove(4)  # removes the first occurrence of the value 4 from the list
+print(list)  # prints the list after removing the value 4
+

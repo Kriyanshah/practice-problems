@@ -1,13 +1,10 @@
-list = []
-for i in range(1, 11):
-    num = int(input("Enter value: "))
-    list.append(num)
+nums = []
+for i in range(10):
+    num = int(input("Enter a number: "))
+    nums.append(num)
+nums.sort()
+print("Sorted list:", nums)
+nums.sort(reverse=True)
+print("Sorted list in descending order:", nums)
 
-list.sort()
-
-print("ascending list:", list)
-
-list.sort(reverse=True)
-print("descending list:", list)
-
-print("the length of the list is:", len(list))
+print("length of the list:", len(nums))

@@ -1,8 +1,6 @@
-number = [1, 2, 3]
-names = ["Taksh", "Aksh", "Kriyan"]
-
+keys = [1,2,3]
+values = ['a','b','c']
 dictionary = {}
-for i in range(len(number)):
-    dictionary[number[i]] = names[i]
-
+for i in range(len(keys)):
+    dictionary[keys[i]] = values[i]
 print(dictionary)

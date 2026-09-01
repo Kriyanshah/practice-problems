@@ -1,4 +1,4 @@
-nums=[]
+nums = []
 for i in range(0, 20):
     num = int(input("enter value: "))
     nums.append(num)
@@ -14,25 +14,25 @@ for i in range(0, 20):
         if nums[j] == nums[i]:
             print("\n",j, end="")
 
-
-print("\nEven or Odd numbers:")
+print("\nEven and odd:")
 even = 0
 odd = 0
-for i in range(0, 20):
-    if nums[i] % 2 == 0:
+for num in nums:
+    if num % 2 == 0:
         even += 1
     else:
         odd += 1
-print("\nEven numbers:", even)
-print("\nOdd numbers:", odd)
 
-print("\nPositive or Negative numbers:")
+print("Number of even numbers:", even)
+print("Number of odd numbers:", odd)
+
+print("\npositive and negative:")
 positive = 0
 negative = 0
-for i in range(0, 20):
-    if nums[i] > 0:
+for num in nums:
+    if num > 0:
         positive += 1
-    else:
+    elif num < 0:
         negative += 1
-print("\nPositive numbers:", positive)
-print("\nNegative numbers:", negative)
+print("Number of positive numbers:", positive)
+print("Number of negative numbers:", negative)

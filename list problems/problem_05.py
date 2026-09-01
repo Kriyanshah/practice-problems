@@ -1,5 +1,4 @@
-list1 = [1, 2, 3, 4, 5]
-list2 = [6, 7, 8, 9, 10]
-
-list2 = list1 + list2  
-print(list2)
+l1 = [1,2,3,4,5]
+l2 = [6,7,8,9,10]
+l2 = l1+l2
+print(l2)

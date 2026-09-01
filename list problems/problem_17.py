@@ -1,6 +1,4 @@
-number = [1, 2, 3]
-names = ["Taksh", "Aksh", "Kriyan"]
-
-dict = dict(zip(number, names))
-print(dict)
-
+keys = [1,2,3]
+values = ['a','b','c']
+my_dict = dict(zip(keys, values))   
+print(my_dict)  # prints the dictionary created from the keys and values lists
