@@ -20,6 +20,7 @@ arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
 print(arr[1, 1:4]) # prints 1st row and column 1 to 3
 print(arr[0:2, 2]) # prints column 2 and row 0
 
+# row slicing
 
 arr2 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 element = arr2[1,2] # selects the element at row 1, column 2
@@ -27,6 +28,7 @@ print(element) # prints 6
 row_slice = arr2[0:2, :] # selects rows 0 and 1, all columns
 print(row_slice) # prints [[1 2 3] [4 5 6]]
 
+# column slicing
 
 arr3 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 column_slice = arr3[:, 1:3] # selects all rows, columns 1 and 2
