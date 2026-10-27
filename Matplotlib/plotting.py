@@ -1,4 +1,4 @@
-# three lines to make ourr compiler able to draw
+# Three lines to make ourr compiler able to draw
 import sys
 import matplotlib
 #matlpotlib.use('Agg')
@@ -14,6 +14,6 @@ plt.ylabel("Calorie Burnage")
 
 plt.show()
 
-# two lines to make our compiler draw
+# Two lines to make our compiler draw
 plt.savefig(sys.stdout.buffer)
 sys.stdout.flush()
